@@ -66,6 +66,7 @@ def get_cluster_owa(perfil_general, perfil_turista, Modalidad):
 
     return cluster_values.index(max(cluster_values)), df
 
+# formato de recibimiento del formulario
 perfil_turista = {
     'Primaria': True,
     'Secundaria': True,
