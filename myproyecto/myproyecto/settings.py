@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-secret-key')  # Usar una varia
 DEBUG = False  # Cambiar a False para producción
 
 ALLOWED_HOSTS = [
-    'djangoapi-kb3f.onrender.com',
+    'myproyecto.onrender.com',
     'riotur.co',
     'www.riotur.co',
 ]
@@ -20,7 +20,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",  # Para desarrollo en Angular
     "https://riotur.co",      # Para el dominio de producción
     "https://www.riotur.co",  # Para el subdominio de producción
-    "https://djangoapi-kb3f.onrender.com",  # El dominio de la API en Render
+    "https://myproyecto.onrender.com",  # El dominio de la API en Render
 ]
 
 # Application definition
